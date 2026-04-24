@@ -1,5 +1,5 @@
 {% set name = "fs.onedatarestfs" %}
-{% set version = "21.2.9.1" %}
+{% set version = "25.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fs_onedatarestfs-{{ version }}.tar.gz
-  sha256: 0c0bd755eeef956435f266ca78356cdc1e0ed5b844ab71cb4b7c5aa821f64f69
+  sha256: 71aad19feeb71ce7a38eabb667b171e7131addf09e28e5df2d6205ca7a8139a5
 
 build:
   noarch: python
